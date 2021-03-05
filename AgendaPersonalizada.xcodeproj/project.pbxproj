@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		B83922F125F2335100EB45A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83922F025F2335100EB45A1 /* AppDelegate.swift */; };
 		B83922F325F2335100EB45A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83922F225F2335100EB45A1 /* SceneDelegate.swift */; };
-		B83922F525F2335100EB45A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83922F425F2335100EB45A1 /* ViewController.swift */; };
 		B83922F825F2335100EB45A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83922F625F2335100EB45A1 /* Main.storyboard */; };
 		B83922FB25F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B83922F925F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld */; };
 		B83922FD25F2335200EB45A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83922FC25F2335200EB45A1 /* Assets.xcassets */; };
 		B839230025F2335200EB45A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83922FE25F2335200EB45A1 /* LaunchScreen.storyboard */; };
 		B839230B25F2335300EB45A1 /* AgendaPersonalizadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839230A25F2335300EB45A1 /* AgendaPersonalizadaTests.swift */; };
 		B839231625F2335300EB45A1 /* AgendaPersonalizadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839231525F2335300EB45A1 /* AgendaPersonalizadaUITests.swift */; };
+		B839232825F23FAA00EB45A1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839232725F23FAA00EB45A1 /* WelcomeViewController.swift */; };
+		B839233025F2405C00EB45A1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839232F25F2405C00EB45A1 /* SignInViewController.swift */; };
+		B839233525F2407900EB45A1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839233425F2407900EB45A1 /* SignUpViewController.swift */; };
+		B839234225F240F300EB45A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839234125F240F300EB45A1 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 		B83922ED25F2335100EB45A1 /* AgendaPersonalizada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaPersonalizada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83922F025F2335100EB45A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83922F225F2335100EB45A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B83922F425F2335100EB45A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B83922F725F2335100EB45A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B83922FA25F2335100EB45A1 /* AgendaPersonalizada.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgendaPersonalizada.xcdatamodel; sourceTree = "<group>"; };
 		B83922FC25F2335200EB45A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		B839231125F2335300EB45A1 /* AgendaPersonalizadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaPersonalizadaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B839231525F2335300EB45A1 /* AgendaPersonalizadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaPersonalizadaUITests.swift; sourceTree = "<group>"; };
 		B839231725F2335300EB45A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B839232725F23FAA00EB45A1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B839232F25F2405C00EB45A1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B839233425F2407900EB45A1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B839234125F240F300EB45A1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +109,13 @@
 			children = (
 				B83922F025F2335100EB45A1 /* AppDelegate.swift */,
 				B83922F225F2335100EB45A1 /* SceneDelegate.swift */,
-				B83922F425F2335100EB45A1 /* ViewController.swift */,
+				B839232625F23F3A00EB45A1 /* Auth */,
 				B83922F625F2335100EB45A1 /* Main.storyboard */,
 				B83922FC25F2335200EB45A1 /* Assets.xcassets */,
 				B83922FE25F2335200EB45A1 /* LaunchScreen.storyboard */,
 				B839230125F2335200EB45A1 /* Info.plist */,
 				B83922F925F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld */,
+				B839234125F240F300EB45A1 /* Extensions.swift */,
 			);
 			path = AgendaPersonalizada;
 			sourceTree = "<group>";
@@ -129,6 +136,16 @@
 				B839231725F2335300EB45A1 /* Info.plist */,
 			);
 			path = AgendaPersonalizadaUITests;
+			sourceTree = "<group>";
+		};
+		B839232625F23F3A00EB45A1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B839232725F23FAA00EB45A1 /* WelcomeViewController.swift */,
+				B839232F25F2405C00EB45A1 /* SignInViewController.swift */,
+				B839233425F2407900EB45A1 /* SignUpViewController.swift */,
+			);
+			path = Auth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B83922F525F2335100EB45A1 /* ViewController.swift in Sources */,
+				B839233525F2407900EB45A1 /* SignUpViewController.swift in Sources */,
+				B839232825F23FAA00EB45A1 /* WelcomeViewController.swift in Sources */,
+				B839234225F240F300EB45A1 /* Extensions.swift in Sources */,
+				B839233025F2405C00EB45A1 /* SignInViewController.swift in Sources */,
 				B83922F125F2335100EB45A1 /* AppDelegate.swift in Sources */,
 				B83922FB25F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld in Sources */,
 				B83922F325F2335100EB45A1 /* SceneDelegate.swift in Sources */,
