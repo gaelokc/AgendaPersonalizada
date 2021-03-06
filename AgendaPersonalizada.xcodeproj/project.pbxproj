@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7F952BD447484159677B38 /* Pods_AgendaPersonalizadaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA57E8D6D5A0F8B437D8980 /* Pods_AgendaPersonalizadaTests.framework */; };
+		3EFC4F734CF6A757F7332145 /* Pods_AgendaPersonalizada_AgendaPersonalizadaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96415C37159041F1336C2BD5 /* Pods_AgendaPersonalizada_AgendaPersonalizadaUITests.framework */; };
 		B83922F125F2335100EB45A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83922F025F2335100EB45A1 /* AppDelegate.swift */; };
 		B83922F325F2335100EB45A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83922F225F2335100EB45A1 /* SceneDelegate.swift */; };
 		B83922F825F2335100EB45A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83922F625F2335100EB45A1 /* Main.storyboard */; };
@@ -19,6 +21,11 @@
 		B839233025F2405C00EB45A1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839232F25F2405C00EB45A1 /* SignInViewController.swift */; };
 		B839233525F2407900EB45A1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839233425F2407900EB45A1 /* SignUpViewController.swift */; };
 		B839234225F240F300EB45A1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839234125F240F300EB45A1 /* Extensions.swift */; };
+		B839234A25F2BA0C00EB45A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B839234925F2BA0C00EB45A1 /* GoogleService-Info.plist */; };
+		B839236425F2EB6B00EB45A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839236325F2EB6B00EB45A1 /* HomeViewController.swift */; };
+		B839236C25F2EEC200EB45A1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839236B25F2EEC200EB45A1 /* Service.swift */; };
+		B870690F25F3616D00A89912 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B870690E25F3616D00A89912 /* ForgotPassViewController.swift */; };
+		C027033ECB95A72C11BC9B94 /* Pods_AgendaPersonalizada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84FE7A31B4E2465C701BB0 /* Pods_AgendaPersonalizada.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FEACA152CB544A80A2DA512 /* Pods-AgendaPersonalizada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizada.release.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizada/Pods-AgendaPersonalizada.release.xcconfig"; sourceTree = "<group>"; };
+		3F84FE7A31B4E2465C701BB0 /* Pods_AgendaPersonalizada.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgendaPersonalizada.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579A08F30BF6193BB134F9E /* Pods-AgendaPersonalizada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizada.debug.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizada/Pods-AgendaPersonalizada.debug.xcconfig"; sourceTree = "<group>"; };
+		689B8104F8EDEE1EBA2DA554 /* Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87AE13FDA21DEF400A95C92D /* Pods-AgendaPersonalizadaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizadaTests.release.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizadaTests/Pods-AgendaPersonalizadaTests.release.xcconfig"; sourceTree = "<group>"; };
+		96415C37159041F1336C2BD5 /* Pods_AgendaPersonalizada_AgendaPersonalizadaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgendaPersonalizada_AgendaPersonalizadaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7771DA702FB2B993C06DA4B /* Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.release.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B83922ED25F2335100EB45A1 /* AgendaPersonalizada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaPersonalizada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83922F025F2335100EB45A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83922F225F2335100EB45A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +71,12 @@
 		B839232F25F2405C00EB45A1 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B839233425F2407900EB45A1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B839234125F240F300EB45A1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B839234925F2BA0C00EB45A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B839236325F2EB6B00EB45A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B839236B25F2EEC200EB45A1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		B870690E25F3616D00A89912 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
+		D1BBE7AA1B5772F9D7AD74CE /* Pods-AgendaPersonalizadaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizadaTests.debug.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizadaTests/Pods-AgendaPersonalizadaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFA57E8D6D5A0F8B437D8980 /* Pods_AgendaPersonalizadaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgendaPersonalizadaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C027033ECB95A72C11BC9B94 /* Pods_AgendaPersonalizada.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7F952BD447484159677B38 /* Pods_AgendaPersonalizadaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFC4F734CF6A757F7332145 /* Pods_AgendaPersonalizada_AgendaPersonalizadaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33B1BD882D065B1F59881348 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5579A08F30BF6193BB134F9E /* Pods-AgendaPersonalizada.debug.xcconfig */,
+				2FEACA152CB544A80A2DA512 /* Pods-AgendaPersonalizada.release.xcconfig */,
+				689B8104F8EDEE1EBA2DA554 /* Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.debug.xcconfig */,
+				B7771DA702FB2B993C06DA4B /* Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.release.xcconfig */,
+				D1BBE7AA1B5772F9D7AD74CE /* Pods-AgendaPersonalizadaTests.debug.xcconfig */,
+				87AE13FDA21DEF400A95C92D /* Pods-AgendaPersonalizadaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E4BFEF972FF46F5F7AD6CD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F84FE7A31B4E2465C701BB0 /* Pods_AgendaPersonalizada.framework */,
+				96415C37159041F1336C2BD5 /* Pods_AgendaPersonalizada_AgendaPersonalizadaUITests.framework */,
+				FFA57E8D6D5A0F8B437D8980 /* Pods_AgendaPersonalizadaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B83922E425F2335100EB45A1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +137,8 @@
 				B839230925F2335300EB45A1 /* AgendaPersonalizadaTests */,
 				B839231425F2335300EB45A1 /* AgendaPersonalizadaUITests */,
 				B83922EE25F2335100EB45A1 /* Products */,
+				33B1BD882D065B1F59881348 /* Pods */,
+				5E4BFEF972FF46F5F7AD6CD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,13 +157,16 @@
 			children = (
 				B83922F025F2335100EB45A1 /* AppDelegate.swift */,
 				B83922F225F2335100EB45A1 /* SceneDelegate.swift */,
+				B839236225F2EB4700EB45A1 /* User */,
 				B839232625F23F3A00EB45A1 /* Auth */,
 				B83922F625F2335100EB45A1 /* Main.storyboard */,
 				B83922FC25F2335200EB45A1 /* Assets.xcassets */,
 				B83922FE25F2335200EB45A1 /* LaunchScreen.storyboard */,
 				B839230125F2335200EB45A1 /* Info.plist */,
+				B839234925F2BA0C00EB45A1 /* GoogleService-Info.plist */,
 				B83922F925F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld */,
 				B839234125F240F300EB45A1 /* Extensions.swift */,
+				B839236B25F2EEC200EB45A1 /* Service.swift */,
 			);
 			path = AgendaPersonalizada;
 			sourceTree = "<group>";
@@ -144,8 +195,17 @@
 				B839232725F23FAA00EB45A1 /* WelcomeViewController.swift */,
 				B839232F25F2405C00EB45A1 /* SignInViewController.swift */,
 				B839233425F2407900EB45A1 /* SignUpViewController.swift */,
+				B870690E25F3616D00A89912 /* ForgotPassViewController.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		B839236225F2EB4700EB45A1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				B839236325F2EB6B00EB45A1 /* HomeViewController.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B839231A25F2335300EB45A1 /* Build configuration list for PBXNativeTarget "AgendaPersonalizada" */;
 			buildPhases = (
+				67B8920EFA3884B080354A35 /* [CP] Check Pods Manifest.lock */,
 				B83922E925F2335100EB45A1 /* Sources */,
 				B83922EA25F2335100EB45A1 /* Frameworks */,
 				B83922EB25F2335100EB45A1 /* Resources */,
+				70BEBC9CDDABA2D6EEBC7AB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B839231D25F2335300EB45A1 /* Build configuration list for PBXNativeTarget "AgendaPersonalizadaTests" */;
 			buildPhases = (
+				2D252240C2DA044BF53FD96B /* [CP] Check Pods Manifest.lock */,
 				B839230225F2335300EB45A1 /* Sources */,
 				B839230325F2335300EB45A1 /* Frameworks */,
 				B839230425F2335300EB45A1 /* Resources */,
@@ -190,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B839232025F2335300EB45A1 /* Build configuration list for PBXNativeTarget "AgendaPersonalizadaUITests" */;
 			buildPhases = (
+				A118DE9BBB95CC4F81655BA4 /* [CP] Check Pods Manifest.lock */,
 				B839230D25F2335300EB45A1 /* Sources */,
 				B839230E25F2335300EB45A1 /* Frameworks */,
 				B839230F25F2335300EB45A1 /* Resources */,
+				260DEA945EF285B966DD40DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B839230025F2335200EB45A1 /* LaunchScreen.storyboard in Resources */,
+				B839234A25F2BA0C00EB45A1 /* GoogleService-Info.plist in Resources */,
 				B83922FD25F2335200EB45A1 /* Assets.xcassets in Resources */,
 				B83922F825F2335100EB45A1 /* Main.storyboard in Resources */,
 			);
@@ -273,15 +339,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		260DEA945EF285B966DD40DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D252240C2DA044BF53FD96B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgendaPersonalizadaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B8920EFA3884B080354A35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgendaPersonalizada-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70BEBC9CDDABA2D6EEBC7AB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgendaPersonalizada/Pods-AgendaPersonalizada-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AgendaPersonalizada/Pods-AgendaPersonalizada-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AgendaPersonalizada/Pods-AgendaPersonalizada-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A118DE9BBB95CC4F81655BA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AgendaPersonalizada-AgendaPersonalizadaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B83922E925F2335100EB45A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B870690F25F3616D00A89912 /* ForgotPassViewController.swift in Sources */,
 				B839233525F2407900EB45A1 /* SignUpViewController.swift in Sources */,
 				B839232825F23FAA00EB45A1 /* WelcomeViewController.swift in Sources */,
 				B839234225F240F300EB45A1 /* Extensions.swift in Sources */,
+				B839236425F2EB6B00EB45A1 /* HomeViewController.swift in Sources */,
 				B839233025F2405C00EB45A1 /* SignInViewController.swift in Sources */,
+				B839236C25F2EEC200EB45A1 /* Service.swift in Sources */,
 				B83922F125F2335100EB45A1 /* AppDelegate.swift in Sources */,
 				B83922FB25F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld in Sources */,
 				B83922F325F2335100EB45A1 /* SceneDelegate.swift in Sources */,
@@ -457,6 +629,7 @@
 		};
 		B839231B25F2335300EB45A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5579A08F30BF6193BB134F9E /* Pods-AgendaPersonalizada.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +648,7 @@
 		};
 		B839231C25F2335300EB45A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FEACA152CB544A80A2DA512 /* Pods-AgendaPersonalizada.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -493,6 +667,7 @@
 		};
 		B839231E25F2335300EB45A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BBE7AA1B5772F9D7AD74CE /* Pods-AgendaPersonalizadaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +689,7 @@
 		};
 		B839231F25F2335300EB45A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AE13FDA21DEF400A95C92D /* Pods-AgendaPersonalizadaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -535,6 +711,7 @@
 		};
 		B839232125F2335300EB45A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689B8104F8EDEE1EBA2DA554 /* Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +731,7 @@
 		};
 		B839232225F2335300EB45A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7771DA702FB2B993C06DA4B /* Pods-AgendaPersonalizada-AgendaPersonalizadaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

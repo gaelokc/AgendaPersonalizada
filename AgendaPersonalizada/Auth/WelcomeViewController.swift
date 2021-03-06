@@ -15,6 +15,15 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let defaults = UserDefaults.standard
+        
+        if defaults.bool(forKey: "isUserSignedIn"){
+            let viewController = self.storyboard?.instantiateViewController(identifier: "welcomeViewID") as! UINavigationController
+            viewController.modalTransitionStyle = .crossDissolve
+            viewController.modalPresentationStyle = .overFullScreen
+            self.present(viewController, animated: true, completion: nil)
+        }
 
     }
  

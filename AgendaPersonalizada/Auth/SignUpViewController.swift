@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
     
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var rePasswordField: UITextField!
     
     @IBOutlet weak var signUpButton: UIButton!
     
@@ -21,7 +23,16 @@ class SignUpViewController: UIViewController {
     }
     
     @IBAction func signUpButtonTap(_ sender: Any) {
-        self.performSegue(withIdentifier: "userSignedUpSegue", sender: nil)
+        let defaults = UserDefaults.standard
+                
+        Service.signUpUser(email: emailField.text!, password: passwordField.text!, name: nameField.text!, onSuccess: {
+            defaults.set(true, forKey: "isUserSignedIn")
+            self.performSegue(withIdentifier: "userSignedUpSegue", sender: nil)
+            
+        }) { (error) in
+            self.present(Service.createAlertController(title: "Error", message: error!.localizedDescription), animated: true, completion: nil)
+        }
+        
     }
     
 }
