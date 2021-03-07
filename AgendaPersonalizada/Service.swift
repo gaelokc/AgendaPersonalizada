@@ -7,9 +7,12 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 
 class Service {
     
+    private let database = Database.database().reference()
+
     static func signUpUser(email: String, password: String, name: String, onSuccess: @escaping () -> Void, onError: @escaping (_ error: Error?) -> Void) {
             let auth = Auth.auth()
             
@@ -21,6 +24,20 @@ class Service {
                 uploadToDatabase(email: email, name: name, onSuccess: onSuccess)
             }
         }
+    
+    static func removeUser(completion: @escaping (Error?) -> Void){
+        guard let uid = Auth.auth().currentUser else {return}
+        
+        uid.delete {error in
+            if let error = error {
+                //Ha ocurrido un error
+            } else {
+                //La cuenta se elimina
+                print("\(#function): -> Cuenta eliminada")
+            }
+            
+        }
+    }
     
     static func uploadToDatabase(email: String, name: String, onSuccess: @escaping () -> Void) {
             let ref = Database.database().reference()
@@ -65,5 +82,14 @@ class Service {
             
         return alert
             
+    }
+    
+    static func addContact(name: String, number: String, onSuccess: @escaping () -> Void){
+        let ref = Database.database().reference()
+        let uid = Auth.auth().currentUser?.uid
+
+        ref.child("contacts").child(uid!).setValue(["name" : name, "number" : number])
+        onSuccess()
+        
     }
 }
