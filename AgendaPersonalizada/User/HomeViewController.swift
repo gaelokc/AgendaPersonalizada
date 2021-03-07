@@ -10,6 +10,8 @@ import Firebase
 
 class HomeViewController: UIViewController {
 
+    //Inicialización de variables
+    
     @IBOutlet weak var welcomeLabel: UILabel!
     
     @IBOutlet weak var contactsButton: UIButton!
@@ -23,6 +25,7 @@ class HomeViewController: UIViewController {
         
         let defaults = UserDefaults.standard
         
+        //Accede a la información de usuario para mostrar su nombre
         Service.getUserInfo(onSuccess: {
             self.welcomeLabel.text = "Bienvenido \(defaults.string(forKey: "userNameKey")!)"
         }) { (error) in
@@ -30,8 +33,10 @@ class HomeViewController: UIViewController {
         }
     }
     
+    //Controlador predeterminado de LogOut, es siguiente es el mío propio
     @IBAction func logOutButtonTap(_ sender: Any) {}
     
+    //Funcion para cerrar sesión
     @IBAction func logOutBTap(_ sender: Any) {
         let auth = Auth.auth()
 
@@ -68,7 +73,7 @@ class HomeViewController: UIViewController {
             //Ejecuta la funcion service de borrado de la cuenta
         }
         
-        //A demás he implementado la misma funcion de cerrar sesión
+        //A demás he implementado la misma funcion de cerrar sesión para salir cuando un usuario se borra
         do {
             try auth.signOut()
             

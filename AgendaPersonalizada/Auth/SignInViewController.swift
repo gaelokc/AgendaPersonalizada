@@ -9,7 +9,7 @@ import UIKit
 import Firebase
 
 class SignInViewController: UIViewController {
-
+    //Inicialización de los campos de texto y los botones
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
@@ -22,7 +22,7 @@ class SignInViewController: UIViewController {
     }
   
     @IBAction func signInButtonTap(_ sender: Any) {
-        
+        //Pulsar el boton de entrar compruba que el email y la contraseña sean válidos y si coinciden con los de la base de datos ingresa con el usuario escogido
         let auth = Auth.auth()
         
         let defaults = UserDefaults.standard
@@ -33,9 +33,9 @@ class SignInViewController: UIViewController {
                 
                 return
             }
-            
+            //Marca que el usuario se a logueado para que la proxima vez que se abra la app acceda directamente al perfil
             defaults.setValue(true, forKey: "isUserSignedIn")
-            
+            //LLeva al usuario a la página de perfil
             self.performSegue(withIdentifier: "userSignedInSegue", sender: nil)
             
         }
@@ -43,6 +43,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func forgotPassButtonTap(_ sender: Any) {
+        //Lleva al usuario a la página de recuparación de contraseña
         self.performSegue(withIdentifier: "forgotPassSegue", sender: nil)
         
     }

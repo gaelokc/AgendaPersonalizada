@@ -24,7 +24,9 @@ class AddContactViewController: UIViewController {
 
     @IBAction func addButtonTap(_ sender: Any){
 
+        //Accede a la funcion de creación de contactos de Service
         Service.addContact(name: nameField.text!, number: numberField.text!) {
+            //Al pulsar el ususario vuelve a la página de lista de contactos
             self.performSegue(withIdentifier: "returnAddSegue", sender: nil)
             
         }
