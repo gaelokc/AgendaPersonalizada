@@ -33,15 +33,14 @@ class contactsViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBOutlet weak var listTableView: UITableView!
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var removeButton: UIButton!
-    @IBAction func modifyButton(_ sender: Any) {
-    }
+    @IBOutlet weak var modifyButton: UIButton!
     
     //El array que rellena la lista
     var contactArray = [String]()
     var contactArrayNumber = [String]()
     
     //Array de testeo
-    let contacts = [
+    var contacts = [
         "Contacto 66548935",
         "Patata 118462233",
         "Cabeza 605978125"
@@ -68,4 +67,14 @@ class contactsViewController: UIViewController, UITableViewDataSource, UITableVi
     @IBAction func addButtonTap(_ sender: Any) {
         //self.performSegue(withIdentifier: "addSegue", sender: nil)
     }
+    
+    @IBAction func removeButtonTap(_ sender: Any) {
+        //Esta función borra los contactos en orden que se han introducido del más antiguo al ás reciente
+        contacts.remove(at: 0)
+        //contactName.remove(at: 0)
+        //contactNumber.remove(at: 0)
+        let indexPath = IndexPath(item: 0, section: 0)
+        listTableView.deleteRows(at: [indexPath], with: .fade)
+    }
+    
 }

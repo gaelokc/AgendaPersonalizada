@@ -261,7 +261,7 @@
             <objects>
                 <viewController id="wAy-oX-xCW" customClass="contactsViewController" customModule="AgendaPersonalizada" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O3k-uO-CYS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LJj-5d-ZVx">
@@ -291,6 +291,9 @@
                                             <state key="normal" title="Eliminar">
                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="removeButtonTap:" destination="wAy-oX-xCW" eventType="touchUpInside" id="YSD-wh-So4"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6R-cJ-rLT">
                                             <rect key="frame" x="276" y="0.0" width="138" height="44"/>
@@ -344,7 +347,7 @@
             <objects>
                 <viewController id="rXL-ex-81i" customClass="AddContactViewController" customModule="AgendaPersonalizada" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C9d-wB-7ID">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Añadir Contacto" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r12-DE-Cfx">
@@ -565,6 +568,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="2NM-E1-Ldn"/>
         <segue reference="e2g-Yy-9Xc"/>
         <segue reference="RE5-Y2-dAr"/>
         <segue reference="Srq-WK-C5i"/>
