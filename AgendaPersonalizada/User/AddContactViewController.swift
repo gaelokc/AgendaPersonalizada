@@ -16,19 +16,26 @@ class AddContactViewController: UIViewController {
     
     @IBOutlet weak var addButton: UIButton!
     
+    var contactsName = [String]()
+    var contactsNumber = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 
     @IBAction func addButtonTap(_ sender: Any){
-
-        //Accede a la funcion de creación de contactos de Service
-        Service.addContact(name: nameField.text!, number: numberField.text!) {
-            //Al pulsar el ususario vuelve a la página de lista de contactos
-            self.performSegue(withIdentifier: "returnAddSegue", sender: nil)
+        
+        //inserta en el array los campos introducidos en el text field
+        contactsName.insert(nameField.text!, at: 1)
+        contactsNumber.insert(numberField.text!, at: 1)
+        
+        //Al pulsar el ususario vuelve a la página de lista de contactos
+        self.performSegue(withIdentifier: "returnAddSegue", sender: nil)
             
-        }
     }
 }

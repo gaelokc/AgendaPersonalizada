@@ -25,7 +25,7 @@
 		B839236425F2EB6B00EB45A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839236325F2EB6B00EB45A1 /* HomeViewController.swift */; };
 		B839236C25F2EEC200EB45A1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839236B25F2EEC200EB45A1 /* Service.swift */; };
 		B870690F25F3616D00A89912 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B870690E25F3616D00A89912 /* ForgotPassViewController.swift */; };
-		B8E9E71C25F4B68400A90AF6 /* contactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9E71B25F4B68400A90AF6 /* contactsViewController.swift */; };
+		B8D6455F25FA295800E1DCE4 /* contactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6455E25FA295800E1DCE4 /* contactsViewController.swift */; };
 		B8E9E72125F4ED7300A90AF6 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9E72025F4ED7300A90AF6 /* AddContactViewController.swift */; };
 		C027033ECB95A72C11BC9B94 /* Pods_AgendaPersonalizada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84FE7A31B4E2465C701BB0 /* Pods_AgendaPersonalizada.framework */; };
 /* End PBXBuildFile section */
@@ -77,7 +77,7 @@
 		B839236325F2EB6B00EB45A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B839236B25F2EEC200EB45A1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		B870690E25F3616D00A89912 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
-		B8E9E71B25F4B68400A90AF6 /* contactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsViewController.swift; sourceTree = "<group>"; };
+		B8D6455E25FA295800E1DCE4 /* contactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsViewController.swift; sourceTree = "<group>"; };
 		B8E9E72025F4ED7300A90AF6 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		D1BBE7AA1B5772F9D7AD74CE /* Pods-AgendaPersonalizadaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizadaTests.debug.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizadaTests/Pods-AgendaPersonalizadaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FFA57E8D6D5A0F8B437D8980 /* Pods_AgendaPersonalizadaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AgendaPersonalizadaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,8 +200,6 @@
 				B839232F25F2405C00EB45A1 /* SignInViewController.swift */,
 				B839233425F2407900EB45A1 /* SignUpViewController.swift */,
 				B870690E25F3616D00A89912 /* ForgotPassViewController.swift */,
-				B8E9E71B25F4B68400A90AF6 /* contactsViewController.swift */,
-				B8E9E72025F4ED7300A90AF6 /* AddContactViewController.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -210,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				B839236325F2EB6B00EB45A1 /* HomeViewController.swift */,
+				B8E9E72025F4ED7300A90AF6 /* AddContactViewController.swift */,
+				B8D6455E25FA295800E1DCE4 /* contactsViewController.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -453,7 +453,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E9E71C25F4B68400A90AF6 /* contactsViewController.swift in Sources */,
 				B870690F25F3616D00A89912 /* ForgotPassViewController.swift in Sources */,
 				B839233525F2407900EB45A1 /* SignUpViewController.swift in Sources */,
 				B839232825F23FAA00EB45A1 /* WelcomeViewController.swift in Sources */,
@@ -463,6 +462,7 @@
 				B839236C25F2EEC200EB45A1 /* Service.swift in Sources */,
 				B83922F125F2335100EB45A1 /* AppDelegate.swift in Sources */,
 				B8E9E72125F4ED7300A90AF6 /* AddContactViewController.swift in Sources */,
+				B8D6455F25FA295800E1DCE4 /* contactsViewController.swift in Sources */,
 				B83922FB25F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld in Sources */,
 				B83922F325F2335100EB45A1 /* SceneDelegate.swift in Sources */,
 			);
