@@ -41,9 +41,9 @@ class contactsViewController: UIViewController, UITableViewDataSource, UITableVi
     
     //Array de testeo
     var contacts = [
-        "Contacto 66548935",
-        "Patata 118462233",
-        "Cabeza 605978125"
+        "James Potter james@gmail.com",
+        "Lily Evans lily@gmail.com",
+        "Sirius Black padfoot@gmail.com"
     ]
     
     override func viewDidLoad() {

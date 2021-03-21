@@ -25,6 +25,21 @@
 		B839236425F2EB6B00EB45A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839236325F2EB6B00EB45A1 /* HomeViewController.swift */; };
 		B839236C25F2EEC200EB45A1 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839236B25F2EEC200EB45A1 /* Service.swift */; };
 		B870690F25F3616D00A89912 /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B870690E25F3616D00A89912 /* ForgotPassViewController.swift */; };
+		B8B48B6B2607A6CB00AB83BB /* coolvetica rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B6A2607A6CA00AB83BB /* coolvetica rg.ttf */; };
+		B8B48B6C2607A6CB00AB83BB /* coolvetica rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B6A2607A6CA00AB83BB /* coolvetica rg.ttf */; };
+		B8B48B6D2607A6CB00AB83BB /* coolvetica rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B6A2607A6CA00AB83BB /* coolvetica rg.ttf */; };
+		B8B48B762607AA0F00AB83BB /* wp3944703.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B752607AA0F00AB83BB /* wp3944703.jpg */; };
+		B8B48B772607AA0F00AB83BB /* wp3944703.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B752607AA0F00AB83BB /* wp3944703.jpg */; };
+		B8B48B782607AA0F00AB83BB /* wp3944703.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B752607AA0F00AB83BB /* wp3944703.jpg */; };
+		B8B48B802607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B7F2607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg */; };
+		B8B48B812607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B7F2607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg */; };
+		B8B48B822607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B7F2607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg */; };
+		B8B48B8A2607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B892607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png */; };
+		B8B48B8B2607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B892607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png */; };
+		B8B48B8C2607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B892607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png */; };
+		B8B48B942607EA6A00AB83BB /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B932607EA6A00AB83BB /* images.xcassets */; };
+		B8B48B952607EA6A00AB83BB /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B932607EA6A00AB83BB /* images.xcassets */; };
+		B8B48B962607EA6A00AB83BB /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8B48B932607EA6A00AB83BB /* images.xcassets */; };
 		B8D6455F25FA295800E1DCE4 /* contactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6455E25FA295800E1DCE4 /* contactsViewController.swift */; };
 		B8E9E72125F4ED7300A90AF6 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E9E72025F4ED7300A90AF6 /* AddContactViewController.swift */; };
 		C027033ECB95A72C11BC9B94 /* Pods_AgendaPersonalizada.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F84FE7A31B4E2465C701BB0 /* Pods_AgendaPersonalizada.framework */; };
@@ -77,6 +92,11 @@
 		B839236325F2EB6B00EB45A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B839236B25F2EEC200EB45A1 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		B870690E25F3616D00A89912 /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
+		B8B48B6A2607A6CA00AB83BB /* coolvetica rg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "coolvetica rg.ttf"; path = "../../../../Downloads/coolvetica/coolvetica rg.ttf"; sourceTree = "<group>"; };
+		B8B48B752607AA0F00AB83BB /* wp3944703.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wp3944703.jpg; sourceTree = "<group>"; };
+		B8B48B7F2607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg"; sourceTree = "<group>"; };
+		B8B48B892607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png"; sourceTree = "<group>"; };
+		B8B48B932607EA6A00AB83BB /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		B8D6455E25FA295800E1DCE4 /* contactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsViewController.swift; sourceTree = "<group>"; };
 		B8E9E72025F4ED7300A90AF6 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		D1BBE7AA1B5772F9D7AD74CE /* Pods-AgendaPersonalizadaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AgendaPersonalizadaTests.debug.xcconfig"; path = "Target Support Files/Pods-AgendaPersonalizadaTests/Pods-AgendaPersonalizadaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,6 +179,8 @@
 		B83922EF25F2335100EB45A1 /* AgendaPersonalizada */ = {
 			isa = PBXGroup;
 			children = (
+				B8B48B742607A9EA00AB83BB /* Imagenes */,
+				B8B48B5B2607A63400AB83BB /* Fuentes */,
 				B83922F025F2335100EB45A1 /* AppDelegate.swift */,
 				B83922F225F2335100EB45A1 /* SceneDelegate.swift */,
 				B839236225F2EB4700EB45A1 /* User */,
@@ -171,6 +193,7 @@
 				B83922F925F2335100EB45A1 /* AgendaPersonalizada.xcdatamodeld */,
 				B839234125F240F300EB45A1 /* Extensions.swift */,
 				B839236B25F2EEC200EB45A1 /* Service.swift */,
+				B8B48B932607EA6A00AB83BB /* images.xcassets */,
 			);
 			path = AgendaPersonalizada;
 			sourceTree = "<group>";
@@ -212,6 +235,24 @@
 				B8D6455E25FA295800E1DCE4 /* contactsViewController.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		B8B48B5B2607A63400AB83BB /* Fuentes */ = {
+			isa = PBXGroup;
+			children = (
+				B8B48B6A2607A6CA00AB83BB /* coolvetica rg.ttf */,
+			);
+			path = Fuentes;
+			sourceTree = "<group>";
+		};
+		B8B48B742607A9EA00AB83BB /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				B8B48B7F2607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg */,
+				B8B48B892607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png */,
+				B8B48B752607AA0F00AB83BB /* wp3944703.jpg */,
+			);
+			path = Imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,9 +364,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B839230025F2335200EB45A1 /* LaunchScreen.storyboard in Resources */,
+				B8B48B762607AA0F00AB83BB /* wp3944703.jpg in Resources */,
+				B8B48B802607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg in Resources */,
+				B8B48B942607EA6A00AB83BB /* images.xcassets in Resources */,
 				B839234A25F2BA0C00EB45A1 /* GoogleService-Info.plist in Resources */,
+				B8B48B8A2607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png in Resources */,
 				B83922FD25F2335200EB45A1 /* Assets.xcassets in Resources */,
 				B83922F825F2335100EB45A1 /* Main.storyboard in Resources */,
+				B8B48B6B2607A6CB00AB83BB /* coolvetica rg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +379,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B48B8B2607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png in Resources */,
+				B8B48B6C2607A6CB00AB83BB /* coolvetica rg.ttf in Resources */,
+				B8B48B812607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg in Resources */,
+				B8B48B772607AA0F00AB83BB /* wp3944703.jpg in Resources */,
+				B8B48B952607EA6A00AB83BB /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +391,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8B48B8C2607EA2A00AB83BB /* contact-details-icon-contact-details-icon-11562975389zj8crdmzp6.png in Resources */,
+				B8B48B6D2607A6CB00AB83BB /* coolvetica rg.ttf in Resources */,
+				B8B48B822607E9D000AB83BB /* papers.co-vd52-abstract-dark-geometric-line-pattern-41-iphone-wallpaper.jpg in Resources */,
+				B8B48B782607AA0F00AB83BB /* wp3944703.jpg in Resources */,
+				B8B48B962607EA6A00AB83BB /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
